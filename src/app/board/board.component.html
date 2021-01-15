@@ -1,0 +1,10 @@
+<div class="container">
+    <h1 *ngIf="!winner">Current player: {{currentPlayer}}</h1>
+    <h1 *ngIf="winner">Winner: {{winner}}</h1>
+
+    <button class="new-game" (click)="reset()">NEW GAME</button>
+    <div class="board">
+        <app-place *ngFor="let place of places; let i = index;" [winning]="winning(i)" [state]="places[i]"
+            (click)="move(i)"></app-place>
+    </div>
+</div>

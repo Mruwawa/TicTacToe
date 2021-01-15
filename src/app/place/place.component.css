@@ -1,0 +1,54 @@
+button
+{
+    width: 190px;
+    height: 190px;
+    background-color: rgb(57, 57, 134);
+    border-color:rgb(64, 15, 110);
+    margin:5px;
+    font-size: 10rem;
+    color:white;
+    font-family: 'calibri';
+}
+button:focus
+{
+    outline:none;
+}
+
+button:hover
+{
+    background-color: rgb(65, 65, 163);
+    border-color:rgb(80, 20, 136);
+}
+
+
+button.X
+{
+    background-color: rgb(0, 182, 182);
+    background-color: rgb(0, 119, 119);
+}
+button.X:hover
+{
+    background-color: cyan;
+    background-color: rgb(1, 197, 197);
+}
+button.O
+{
+    background-color: darkgreen;
+    background-color: rgb(1, 68, 1);
+}
+button.O:hover
+{
+    background-color: rgb(0, 134, 0);
+    background-color: rgb(0, 97, 0);
+}
+
+button.winning
+{
+    background-color: crimson;
+    background-color: rgb(161, 15, 44);
+}
+button.winning:hover
+{
+    background-color: rgb(247, 25, 69);
+    background-color: rgb(206, 22, 59);
+}

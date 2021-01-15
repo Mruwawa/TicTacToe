@@ -1,0 +1,38 @@
+*
+{
+    color:white;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.board
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+button
+{
+    color:black;
+}
+
+.new-game
+{
+    padding:20px;
+    background:transparent;
+    border: 2px solid rgb(161, 61, 61);
+    color:  rgb(161, 61, 61);
+    font-weight: bold;
+}
+
+.new-game:hover
+{
+    background-color: rgb(88, 27, 27);
+}
